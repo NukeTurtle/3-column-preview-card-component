@@ -58,8 +58,11 @@ p{
     mix-blend-mode: lighten;
 }
 .button:hover{
-    color: #000;
+    background-color: transparent;
     cursor: pointer;
+    color: #fff;
+    mix-blend-mode: normal;
+    border: 2px solid #fff;
 }
 .attribution {
     font-size: 11px;
